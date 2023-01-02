@@ -1,9 +1,11 @@
 import React from 'react';
+import Review from '../Review/Review';
+import SingleReview from '../SingleReview/SingleReview';
 
 const Reviews = () => {
     return (
         <div>
-            <h1>Reviesss</h1>
+            <Review></Review>
         </div>
     );
 };
