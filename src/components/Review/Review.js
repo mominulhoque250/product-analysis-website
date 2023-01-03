@@ -5,7 +5,7 @@ const Review = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('https://mocki.io/v1/08a1174d-380c-4474-bea8-d8f22e33ecef')
+        fetch('https://mocki.io/v1/31cb8c5b-1bfc-4ffc-8b1f-73d959c6b070')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])

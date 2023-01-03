@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfilePicture from "../../image/bf79e46c1e523a1bd91e5dc3308fb907.jpg";
 import Review from '../Review/Review';
+import Reviews from '../Reviews/Reviews';
 
 import "./Home.css";
 
@@ -15,6 +16,7 @@ const Home = () => {
             <div>
                 <img src={ProfilePicture} alt='book'></img>
             </div>
+            <Reviews></Reviews>
         </div>
 
     );

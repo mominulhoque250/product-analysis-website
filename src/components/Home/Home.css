@@ -4,6 +4,10 @@
     padding-top: 10px;
 }
 
-.heading {
-    text-decoration: aqua;
+.heading h1 {
+    color: aqua;
+}
+
+.heading p {
+    color: blueviolet;
 }
